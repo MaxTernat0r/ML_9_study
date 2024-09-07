@@ -10,7 +10,7 @@ with open("datasets/dataset.csv", encoding='utf-8') as r_file:
         Y.append(float(row[1]))
 
 X = [[x] for x in X]
-
+print(X)
 regressor = LinearRegression()
 regressor.fit(X, Y)
 
