@@ -5,7 +5,7 @@ from sklearn import metrics
 X = []
 Y = []
 total = 0
-with open("datasets/boston.csv", encoding='utf-8') as r_file:
+with open("../datasets/boston.csv", encoding='utf-8') as r_file:
     file_reader = csv.reader(r_file, delimiter=',')
     cnt = 0
     for row in file_reader:

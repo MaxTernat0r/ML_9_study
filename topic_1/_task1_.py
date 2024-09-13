@@ -3,7 +3,7 @@ import csv
 
 X = []
 Y = []
-with open("datasets/dataset.csv", encoding='utf-8') as r_file:
+with open("../datasets/dataset.csv", encoding='utf-8') as r_file:
     file_reader = csv.reader(r_file, delimiter=';')
     for row in file_reader:
         X.append(float(row[0]))
