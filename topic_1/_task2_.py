@@ -1,6 +1,7 @@
 from sklearn.linear_model import LinearRegression
 import csv
 from sklearn import metrics
+import matplotlib.pyplot as plt
 
 X = []
 Y = []
