@@ -1,2 +1,2 @@
 token='{ВАШ ТОКЕН}'
-check='check'
+check='check0'
