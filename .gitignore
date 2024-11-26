@@ -1,6 +1,3 @@
 .idea
-<<<<<<< HEAD
-topic_5\practice\config.py
-=======
-topic_5/practice/config.py
->>>>>>> baa29522a7102f364e75484e591d2c0c02b13007
+config.py
+
