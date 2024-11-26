@@ -1,2 +1,1 @@
-
-check=0
+config=''
